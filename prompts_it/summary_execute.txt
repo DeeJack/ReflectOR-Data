@@ -1,0 +1,3 @@
+Riassumi la trascrizione che segue, considerando informazioni passate. Rispondi esclusivamente in italiano. Dai un riassunto completo.
+
+{transcript}

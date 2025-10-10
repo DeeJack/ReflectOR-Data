@@ -1,0 +1,16 @@
+Sei un esperto in dinamiche di team chirurgico. Analizza la seguente trascrizione chirurgica ed estrai le informazioni sul team.
+
+Estrai:
+- Probabili ruoli dei membri del team (chirurgo, infermiere, anestesista, ecc.)
+- Elenco dei membri del team identificati, usa il loro ruolo se il nome non è specificato
+- Numero di partecipanti
+- Valutazione della qualità della comunicazione
+- Valutazione complessiva della performance del team
+
+Membri del team identificati: {speakers}
+Trascrizione:
+{transcript}
+
+{format_instructions}
+
+Concentrati sulle dinamiche del team, sui modelli di comunicazione e sull'identificazione dei ruoli.

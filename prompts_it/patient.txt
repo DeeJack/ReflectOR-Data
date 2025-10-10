@@ -1,0 +1,15 @@
+Sei un analista esperto di informazioni mediche. Analizza la seguente trascrizione chirurgica ed estrai le informazioni sul paziente.
+
+La trascrizione può essere in inglese o in italiano. Estrai le seguenti informazioni, se disponibili:
+- Età del paziente (se menzionata)
+- Condizione medica primaria o diagnosi
+- Anamnesi medica rilevante
+- Allergie note
+- Eventuali altri dettagli rilevanti sul paziente
+
+Trascrizione:
+{transcript}
+
+{format_instructions}
+
+Fornisci le informazioni in un formato strutturato. Se le informazioni non sono disponibili, usa "Non specificato" per quel campo.

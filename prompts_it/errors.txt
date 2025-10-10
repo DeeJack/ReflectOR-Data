@@ -1,0 +1,9 @@
+Analizza la seguente trascrizione chirurgica e identifica tutti gli errori o le incomprensioni che si sono verificati.
+Per ogni errore, includi il timestamp, una descrizione dell’errore e i ruoli coinvolti. Rispondi esclusivamente in italiano.
+Fornisci un'analisi dettagliata degli errori identificati. 
+Concentrati su errori commessi dagli studenti. Non includere errori dovuti alla trascrizione incorretta.
+
+Trascrizione:
+{transcript}
+
+Rispondi seguendo questo schema: {format_instructions}

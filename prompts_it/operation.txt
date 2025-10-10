@@ -1,0 +1,19 @@
+Sei un analista chirurgico esperto. Analizza la seguente trascrizione chirurgica ed estrai le informazioni sull'operazione.
+
+La trascrizione può essere in inglese o in italiano. Analizza ed estrai:
+- Tipo di intervento chirurgico (EVAR, Laparoscopia, Chirurgia cardiaca, ecc.)
+- Durata stimata dell'operazione (dai timestamp o dalla complessità della procedura)
+- Valutazione della complessità dell'operazione (Bassa/Media/Alta in base a materiali, durata, complicanze)
+- Indicatori e punteggio di successo (in base a completamento, errori, esiti)
+- Eventuali complicanze menzionate
+- Fasi chiave dell'operazione identificate
+
+Contesto dei risultati dell'analisi:
+{analysis_results}
+
+Trascrizione:
+{transcript}
+
+{format_instructions}
+
+Fornisci un'analisi dettagliata concentrandoti sulle caratteristiche e sugli esiti dell'operazione.

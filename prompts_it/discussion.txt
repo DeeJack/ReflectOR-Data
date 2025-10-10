@@ -1,0 +1,8 @@
+Prepara un piano di discussione per il debriefing post-operatorio basato sui seguenti risultati di analisi chirurgica provenienti da tutte le fasi di analisi precedenti.
+
+Rispondi esclusivamente in italiano.
+
+Risultati dell'Analisi:
+{analysis_results}
+
+Rispondi con un oggetto JSON che rispetti questo schema: {format_instructions}

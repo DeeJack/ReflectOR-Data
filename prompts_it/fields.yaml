@@ -1,0 +1,195 @@
+# Discussion Agent
+welfare_check: Domande o richieste per valutare l'impatto emotivo e il benessere
+acute_corrections: Correzioni immediate per affrontare problemi di attrezzature o processi
+team_reflection: Domande per esplorare le percezioni e le dinamiche del team
+education: Suggerimenti per micro-lezioni o simulazioni
+resource_needs: Raccomandazioni per il supporto istituzionale o le azioni di follow-up
+# Error agent
+timestamp_error: Timestamp dell'errore, e.g. '00:15'
+description_error: Descrizione dell'errore o incomprensione
+roles_error: Ruoli coinvolti nell'errore, e.g., ['Surgeon', 'Nurse', 'Student']
+list_errors: Lista degli errori identificati dalla trascrizione
+# Timeline agent
+timeline: Timestamp dell'evento, e.g., '00:15'
+timeline_description: Breve descrizione di cosa è successo
+timeline_list: Lista degli eventi estratti dalla trascrizione
+# Materials agent
+materials_list: Elenco di materiali, sostanze e attrezzature utilizzati nell'operazione
+materials_name: Nome del materiale, sostanza o attrezzatura
+materials_category: Categoria (es. 'strumento_chirurgico', 'farmaco', 'mezzo_di_contrasto', 'sutura', 'impianto')
+materials_quantity: Quantità stimata utilizzata (es. '1 unità', '50ml', '2 siringhe')
+materials_cost: Costo stimato in USD
+materials_timestamp: Ora approssimativa in cui è stato menzionato/utilizzato, es. '00:15'
+materials_context: Contesto di utilizzo nell'operazione
+materials_necessity: Valutazione della necessità ('essenziale', 'appropriato', 'discutibile', 'spreco')
+materials_assessment: Analisi del potenziale spreco o delle opportunità di ottimizzazione
+materials_used: Elenco di materiali, sostanze e attrezzature utilizzati
+materials_total_cost: Costo totale stimato di tutti i materiali
+materials_breakdown: Suddivisione dei costi per categoria
+materials_analysis: Valutazione generale dello spreco di materiale e delle opportunità di ottimizzazione
+materials_recommendations: Raccomandazioni per l'ottimizzazione del materiale e la riduzione dei costi
+# Surgery data
+surgery_not_specified: Non specificato
+surgery_name: Nome del paziente
+surgery_age: Età del paziente se menzionata
+surgery_condition: Condizione medica primaria o diagnosi
+surgery_history: Anamnesi medica rilevante
+surgery_allergies: Allergie note
+surgery_anonymized: Identificatore anonimizzato del paziente
+surgery_type: Tipo di intervento chirurgico
+surgery_duration: Durata stimata dell'operazione
+surgery_complexity: Valutazione della complessità dell'operazione (Bassa/Media/Alta)
+surgery_success: Indicatori e punteggio di successo
+surgery_complications: Elenco delle complicanze identificate
+surgery_phrases: Fasi chiave dell'operazione identificate
+surgery_speakers: Elenco dei membri del team, basandosi sul field "speakers" della trascrizione. Usa il loro ruolo se il nome non è specificato.
+surgery_participants: Numero di partecipanti al team
+surgery_roles: Ruoli identificati dei membri del team
+surgery_quality: Valutazione della qualità della comunicazione
+surgery_performance: Valutazione complessiva della performance del team
+surgery_outcome: Valutazione complessiva dell'esito dell'operazione
+surgery_errors: Numero di errori identificati
+surgery_severity: Distribuzione della gravità degli errori
+surgery_lessons: Principali lezioni apprese dall'operazione
+# User input
+user_input_description: Usa questo strumento per ottenere un input dall'utente. L'input dovrebbe essere una richiesta/domanda da porre all'utente. Lo strumento visualizzerà la richiesta e attenderà l'input dell'utente dalla riga di comando.
+user_confirmation_description: Usa questo strumento per ottenere una conferma (sì/no) dall'utente. L'input dovrebbe essere una domanda da porre all'utente. \nRestituisce 'sì' o 'no' in base alla risposta dell'utente.
+transcript: Trascrizione
+# Tools
+memory_tool: Usa questo strumento per memorizzare informazioni importanti nella memoria a lungo termine. L'input dovrebbe essere il testo da ricordare.
+recall_tool: Usa questo strumento per cercare informazioni rilevanti nella memoria a lungo termine. L'input dovrebbe essere la tua query di ricerca.
+user_input_tool: Usa questo strumento per ottenere input dall'utente. L'input dovrebbe essere una richiesta/domanda da porre all'utente. Lo strumento mostrerà la richiesta e attenderà l'input dell'utente dalla riga di comando.
+user_confirmation_tool: Usa questo strumento per ottenere una conferma sì/no dall'utente. L'input dovrebbe essere una domanda da porre all'utente. Restituisce 'sì' o 'no' in base alla risposta dell'utente.
+summary_tool: Usa questo strumento per generare un riassunto conciso di una trascrizione. L'input dovrebbe essere il testo della trascrizione.
+timeline_tool: Usa questo strumento per creare una cronologia degli eventi a partire da una trascrizione. L'input dovrebbe essere il testo della trascrizione.
+error_analysis_tool: Usa questo strumento per identificare errori e incomprensioni in una trascrizione. L'input dovrebbe essere il testo della trascrizione.
+discussion_plan_tool: Usa questo strumento per creare un piano di discussione strutturato basato su una trascrizione e sugli errori identificati. L'input dovrebbe essere una stringa JSON con i campi 'transcript' ed 'errors'.
+materials_analysis_tool: Usa questo strumento per analizzare materiali, sostanze e attrezzature utilizzate nell'operazione, inclusa la stima dei costi e la valutazione degli sprechi. L'input dovrebbe essere il testo della trascrizione.
+transcript_processing_tool: Usa questo strumento per elaborare una trascrizione chirurgica attraverso l'intero processo di analisi. Questo genererà riassunto, cronologia, errori, piano di discussione e analisi dei materiali. Non richiede input, legge la trascrizione dal disco.
+reflection_tool: Usa questo strumento per valutare e perfezionare i risultati dell'analisi. L'input dovrebbe essere una stringa JSON con i campi 'transcript' e 'analysis_results'.
+performance_analysis: Analizza le performance del team confrontando i risultati dell'operazione attuale con i dati storici delle performance del team
+error_score: Punteggio per la gestione degli errori (1-10, più alto è meglio)
+communication_score: Punteggio per la qualità della comunicazione del team (1-10, più alto è meglio)
+efficiency_score: Punteggio per l'efficienza operativa (1-10, più alto è meglio)
+technical_score: Punteggio per l'esecuzione tecnica (1-10, più alto è meglio)
+overall_score: Punteggio complessivo della performance (1-10, più alto è meglio)
+trend: "Tendenza della performance: 'in miglioramento', 'stabile', 'in calo' o 'dati_insufficienti'"
+error_change_percentage: Variazione percentuale nella gestione degli errori (valore positivo indica miglioramento)
+communication_change_percentage: Variazione percentuale nella qualità della comunicazione (valore positivo indica miglioramento)
+efficiency_change_percentage: Variazione percentuale nell'efficienza operativa (valore positivo indica miglioramento)
+technical_change_percentage: Variazione percentuale nell'esecuzione tecnica (valore positivo indica miglioramento)
+operations_analyzed: Numero di operazioni storiche utilizzate per il confronto
+current_performance: Punteggi della performance dell'operazione attuale
+historical_comparison: Confronto con la performance storica
+recommendations: Raccomandazioni per il miglioramento delle performance
+strengths: Punti di forza identificati del team
+areas_for_improvement: Aree che necessitano di miglioramento
+# PDF
+pdf_title: ReflectOR Analysis Report
+toc: Indice
+toc_summary: Riassunto
+toc_timeline: Cronologia degli eventi
+toc_error_analysis: Analisi degli errori
+toc_discussion_plan: Piano di discussione
+toc_materials_analysis: Analisi dei materiali
+toc_performance_analysis: Analisi delle performance
+toc_past_experience: Esperienze passate rilevanti
+toc_appendix: Appendice
+toc_raw_data: Risultato analisi grezzo
+pdf_subtitle: Informazioni sul report
+unknown: Sconosciuto
+pdf_generation: Data generazione
+pdf_session_id: ID Sessione
+pdf_operation_id: ID Operazione
+pdf_operation_type: Tipo Operazione
+pdf_speakers: Componenti del team
+pdf_team_id: ID Team
+pdf_no_info_available: Nessuna informazione disponibile
+pdf_patient_info: Informazioni sul paziente
+pdf_name: Nome
+pdf_dob: Data di nascita
+pdf_mrn: Identificatore numerico medico
+pdf_operations: Operzioni
+pdf_type: Tipo
+pdf_date: Data
+pdf_exams: Esami
+pdf_results: Risultati
+pdf_photos: Foto
+pdf_photo_description: Descrizione Foto
+pdf_no_summary: Nessun riassunto disponibile
+pdf_no_timeline: Nessuna cronologia disponibile
+pdf_timestamp: Timestamp
+pdf_event: Evento
+pdf_errors: I seguenti errori e incomprensioni sono stati identificati
+pdf_error: Errore
+pdf_no_errors: Nessun errore o incomprensione identificato
+
+# Discussion plan PDF
+toc_discussion: Piano di Discussione
+pdf_no_discussion_plan: Nessun piano di discussione disponibile.
+pdf_welfare_check: Controllo del Benessere
+pdf_acute_corrections: Correzioni Acute
+pdf_team_reflection: Riflessione del Team
+pdf_education: Educazione
+pdf_resource_needs: Bisogni di Risorse
+
+# Materials Analysis PDF Fields
+pdf_materials_overview: "Analisi di materiali, sostanze e attrezzature utilizzati durante l'operazione:"
+pdf_materials_used: Materiali Utilizzati
+pdf_material_equipment: Materiale/Attrezzatura
+pdf_quantity: Quantità
+pdf_estimated_cost: Costo Stimato
+pdf_waste_assessment: Valutazione Sprechi
+pdf_cost_summary: Riepilogo Costi
+pdf_total_estimated_cost: Costo Totale Stimato
+pdf_recommendations: Raccomandazioni
+pdf_no_materials_analysis: Nessuna analisi dei materiali disponibile.
+
+# Performance Analysis PDF Fields
+pdf_performance_overview: "Analisi delle metriche di performance del team durante l'operazione:"
+pdf_current_performance_metrics: Metriche Performance Attuali
+pdf_historical_comparison: Confronto Storico
+pdf_trend: Tendenza
+pdf_strengths: Punti di Forza
+pdf_areas_for_improvement: Aree di Miglioramento
+pdf_no_performance_analysis: Nessuna analisi delle performance disponibile.
+pdf_error_change_percentage: Percentuale di Variazione degli Errori
+pdf_communication_change_percentage: Percentuale di Variazione della Comunicazione
+pdf_efficiency_change_percentage: Percentuale di Variazione dell'Efficienza
+pdf_technical_change_percentage: Percentuale di Variazione della Competenza Tecnica
+pdf_operations_analyzed: Operazioni Analizzate
+pdf_error_score: Punteggio Errori
+pdf_communication_score: Punteggio Comunicazione
+pdf_efficiency_score: Punteggio Efficienza
+pdf_technical_score: Punteggio Competenza Tecnica
+pdf_overall_score: Punteggio Complessivo
+
+# Past Experiences PDF Fields
+pdf_no_past_experiences: Nessuna esperienza passata rilevante trovata.
+pdf_error_retrieving_experiences: Errore nel recupero delle esperienze passate.
+
+# Appendices PDF Fields
+pdf_complete_analysis_results: "Risultati completi dell'analisi in formato JSON:"
+toc_expenses_graph: Grafici delle spese
+toc_debriefing: Conversazione di Debriefing
+
+medgemma: Usa questo strumento per chiamare MedGemma, un LLM creato da Google specializzato in conoscenze mediche.
+patient_info_tool: Ottieni informazioni sul paziente dal database
+filter_transcript: Filtra un transcript per rimuovere informazioni irrilevanti preservando il contenuto medico ed educativo
+patient_info: Informazioni sul paziente
+errors: Errori
+team_id: ID/Nome del team per analisi delle performance
+recurring_errors: Errori ricorrenti effettuati dal team basandosi su performance passate
+pdf_recurring_errors: Errori Ricorrenti
+pdf_no_historical_comparison: Nessun confronto storico disponibile.
+
+# Debriefing PDF Fields
+pdf_debriefing_conversation: Conversazione di Debriefing
+pdf_no_debriefing: Nessuna conversazione di debriefing disponibile.
+pdf_human_message: Umano
+pdf_ai_message: IA
+pdf_debriefing_overview: "Conversazione post-analisi tra il coordinatore e l'utente:"
+
+materials_used_at: Timestamp di quando è stato usato il materiale
+pdf_used_at: Timestamp
+pdf_plan: Piano di Discussione

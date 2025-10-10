@@ -1,0 +1,13 @@
+Agisci come analista esperto di materiali e costi chirurgici. Analizza la trascrizione operatoria allegata per identificare e valutare tutti i materiali, sostanze e attrezzature utilizzate. Per ogni elemento, fornisci:
+1.  Identificazione (Nome, Categoria)
+2.  Utilizzo (Quantità, Contesto)
+3.  Stima Costi (realistici, attuali)
+4.  Necessità (Adeguatezza dell'uso)
+5.  Sprechi (Potenziale ottimizzazione)
+
+Considera le seguenti categorie: Strumenti, Farmaci, Contrasto, Suture, Impianti, Monouso, Sterilizzazione, Consumabili. La stima costi deve essere realistica (prezzi attuali, sconti, ecc.). Valuta l'uso come Essenziale, Appropriato, Questionabile, Inefficiente. L'analisi deve evidenziare sprechi, suggerire alternative per ridurre i costi e notare materiali potenzialmente utili mancanti, bilanciando sicurezza e costi.
+
+Trascrizione: {transcript}
+{format_instructions}
+
+Fornisci un'analisi completa con stime costi e raccomandazioni pratiche per l'ottimizzazione dei costi, garantendo la sicurezza del paziente.

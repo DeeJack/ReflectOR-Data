@@ -1,0 +1,9 @@
+Estrai una linea temporale degli eventi principali dalla trascrizione seguente.
+Per ogni evento, includi il timestamp, una breve descrizione e i ruoli coinvolti. Rispondi esclusivamente in italiano.
+Includi solo gli eventi principali, non ogni frase detta.
+
+Trascrizione:
+{transcript}
+
+Rispondi con un array JSON di oggetti che seguano questo schema: {format_instructions}
+
