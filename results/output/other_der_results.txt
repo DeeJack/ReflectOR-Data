@@ -1,0 +1,291 @@
+Other DER Results
+===================
+
+
+## Pyannote Diarization - Processed
+
+### 1
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero_swapped.json
+Test file: output/metrics_tests/pyannote/diarization_annote_1.txt
+Total segments: 128
+Correct segments: 109
+Incorrect segments: 19
+Accuracy: 85.16%
+DER: 0.1484
+==================================================
+
+### 2
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero_swapped.json
+Test file: output/metrics_tests/pyannote/diarization_annote_2.txt
+Total segments: 128
+Correct segments: 109
+Incorrect segments: 19
+Accuracy: 85.16%
+DER: 0.1484
+==================================================
+
+### 3
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero_swapped.json
+Test file: output/metrics_tests/pyannote/diarization_annote_3.txt
+Total segments: 128
+Correct segments: 109
+Incorrect segments: 19
+Accuracy: 85.16%
+DER: 0.1484
+==================================================
+
+### 4
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero_swapped.json
+Test file: output/metrics_tests/pyannote/diarization_annote_4.txt
+Total segments: 128
+Correct segments: 109
+Incorrect segments: 19
+Accuracy: 85.16%
+DER: 0.1484
+==================================================
+
+### 5
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero_swapped.json
+Test file: output/metrics_tests/pyannote/diarization_annote_5.txt
+Total segments: 128
+Correct segments: 109
+Incorrect segments: 19
+Accuracy: 85.16%
+DER: 0.1484
+==================================================
+
+## NEMO Diarization - Processed
+
+### 1
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero_numeric.json
+Test file: output/metrics_tests/nemo/diarization_nemo_1.txt
+Total segments: 106
+Correct segments: 78
+Incorrect segments: 28
+Accuracy: 73.58%
+DER: 0.2642
+==================================================
+
+### 2
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero_numeric.json
+Test file: output/metrics_tests/nemo/diarization_nemo_2.txt
+Total segments: 106
+Correct segments: 78
+Incorrect segments: 28
+Accuracy: 73.58%
+DER: 0.2642
+==================================================
+
+### 3
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero_numeric.json
+Test file: output/metrics_tests/nemo/diarization_nemo_3.txt
+Total segments: 106
+Correct segments: 78
+Incorrect segments: 28
+Accuracy: 73.58%
+DER: 0.2642
+==================================================
+
+### 4
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero_numeric.json
+Test file: output/metrics_tests/nemo/diarization_nemo_4.txt
+Total segments: 106
+Correct segments: 78
+Incorrect segments: 28
+Accuracy: 73.58%
+DER: 0.2642
+==================================================
+
+### 5
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero_numeric.json
+Test file: output/metrics_tests/nemo/diarization_nemo_5.txt
+Total segments: 106
+Correct segments: 78
+Incorrect segments: 28
+Accuracy: 73.58%
+DER: 0.2642
+==================================================
+
+## PyAnnote Diarization - NOT Processed
+
+### 1
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero.json
+Test file: output/metrics_tests/pyannote_unprocessed/diarization_annote_nonprocessed_1.txt
+Total segments: 120
+Correct segments: 73
+Incorrect segments: 47
+Accuracy: 60.83%
+DER: 0.3917
+==================================================
+
+### 2
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero.json
+Test file: output/metrics_tests/pyannote_unprocessed/diarization_annote_nonprocessed_2.txt
+Total segments: 120
+Correct segments: 73
+Incorrect segments: 47
+Accuracy: 60.83%
+DER: 0.3917
+==================================================
+
+### 3
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero.json
+Test file: output/metrics_tests/pyannote_unprocessed/diarization_annote_nonprocessed_3.txt
+Total segments: 120
+Correct segments: 73
+Incorrect segments: 47
+Accuracy: 60.83%
+DER: 0.3917
+==================================================
+
+### 4
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero.json
+Test file: output/metrics_tests/pyannote_unprocessed/diarization_annote_nonprocessed_4.txt
+Total segments: 120
+Correct segments: 73
+Incorrect segments: 47
+Accuracy: 60.83%
+DER: 0.3917
+==================================================
+
+### 5
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero.json
+Test file: output/metrics_tests/pyannote_unprocessed/diarization_annote_nonprocessed_5.txt
+Total segments: 120
+Correct segments: 73
+Incorrect segments: 47
+Accuracy: 60.83%
+DER: 0.3917
+==================================================
+
+## NEMO Diarization - NOT Processed
+
+### 1
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero_numeric.json
+Test file: output/metrics_tests/nemo_unprocessed/diarization_nemo_nonprocessed_1.txt
+Total segments: 86
+Correct segments: 66
+Incorrect segments: 20
+Accuracy: 76.74%
+DER: 0.2326
+==================================================
+
+### 2
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero_numeric.json
+Test file: output/metrics_tests/nemo_unprocessed/diarization_nemo_nonprocessed_2.txt
+Total segments: 86
+Correct segments: 66
+Incorrect segments: 20
+Accuracy: 76.74%
+DER: 0.2326
+==================================================
+
+### 3
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero_numeric.json
+Test file: output/metrics_tests/nemo_unprocessed/diarization_nemo_nonprocessed_3.txt
+Total segments: 86
+Correct segments: 66
+Incorrect segments: 20
+Accuracy: 76.74%
+DER: 0.2326
+==================================================
+
+### 4
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero_numeric.json
+Test file: output/metrics_tests/nemo_unprocessed/diarization_nemo_nonprocessed_4.txt
+Total segments: 86
+Correct segments: 66
+Incorrect segments: 20
+Accuracy: 76.74%
+DER: 0.2326
+==================================================
+
+### 5
+
+==================================================
+DER COMPUTATION RESULTS
+==================================================
+Ground truth file: output/ground_truth_zero_numeric.json
+Test file: output/metrics_tests/nemo_unprocessed/diarization_nemo_nonprocessed_5.txt
+Total segments: 86
+Correct segments: 66
+Incorrect segments: 20
+Accuracy: 76.74%
+DER: 0.2326
+==================================================
