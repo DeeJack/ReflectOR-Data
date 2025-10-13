@@ -13,9 +13,7 @@ Non usare alcuna formattazione markdown, come il grassetto o il corsivo.
 Usa solo caratteri dell'alfabeto inglese, a meno che tu non creda realmente che siano corretti caratteri stranieri.
 
 È importante usare le parole corrette e scrivere tutto in modo ortograficamente corretto.
-Rimuovi intercalari tipo "uhm", "ehm", "allora", "ok", "sì", "no", etc.
 IMPORTANTE: 
 - NON RIPETERE PAROLE A CASO. Non andare in loop, ripetendo la stessa frase più volte, l'output deve essere unico.
 - SCRIVI SOLO IN ITALIANO. Non usare l'inglese, a parte parole normali come "software"
 - Se c'è silenzio o rumori di sottofondo, non scrivere nulla!
-

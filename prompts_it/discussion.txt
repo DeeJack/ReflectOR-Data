@@ -1,5 +1,12 @@
 Prepara un piano di discussione per il debriefing post-operatorio basato sui seguenti risultati di analisi chirurgica provenienti da tutte le fasi di analisi precedenti.
 
+Usa la checklist WATER:
+- Welfare Check: Domande per valutare l'impatto emotivo e il benessere.
+- Acute Corrections: Correzioni immediate relative a attrezzature o processi.
+- Team Reflection: Spunti per esplorare percezioni e dinamiche di squadra.
+- Education: Suggerimenti per micro-lezioni mirate o simulazioni.
+- Resource Needs: Raccomandazioni per supporto istituzionale o follow-up.
+
 Rispondi esclusivamente in italiano.
 
 Risultati dell'Analisi:

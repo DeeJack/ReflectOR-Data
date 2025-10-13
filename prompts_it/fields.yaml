@@ -65,7 +65,7 @@ timeline_tool: Usa questo strumento per creare una cronologia degli eventi a par
 error_analysis_tool: Usa questo strumento per identificare errori e incomprensioni in una trascrizione. L'input dovrebbe essere il testo della trascrizione.
 discussion_plan_tool: Usa questo strumento per creare un piano di discussione strutturato basato su una trascrizione e sugli errori identificati. L'input dovrebbe essere una stringa JSON con i campi 'transcript' ed 'errors'.
 materials_analysis_tool: Usa questo strumento per analizzare materiali, sostanze e attrezzature utilizzate nell'operazione, inclusa la stima dei costi e la valutazione degli sprechi. L'input dovrebbe essere il testo della trascrizione.
-transcript_processing_tool: Usa questo strumento per elaborare una trascrizione chirurgica attraverso l'intero processo di analisi. Questo genererà riassunto, cronologia, errori, piano di discussione e analisi dei materiali. Non richiede input, legge la trascrizione dal disco.
+transcript_processing_tool: Usa questo strumento per elaborare una trascrizione chirurgica attraverso l'intero processo di analisi. Questo genererà riassunto, cronologia, errori, piano di discussione e analisi dei materiali. Non richiede input, legge la trascrizione dal disco. Chiamalo solo una volta per sessione!
 reflection_tool: Usa questo strumento per valutare e perfezionare i risultati dell'analisi. L'input dovrebbe essere una stringa JSON con i campi 'transcript' e 'analysis_results'.
 performance_analysis: Analizza le performance del team confrontando i risultati dell'operazione attuale con i dati storici delle performance del team
 error_score: Punteggio per la gestione degli errori (1-10, più alto è meglio)
@@ -193,3 +193,8 @@ pdf_debriefing_overview: "Conversazione post-analisi tra il coordinatore e l'ute
 materials_used_at: Timestamp di quando è stato usato il materiale
 pdf_used_at: Timestamp
 pdf_plan: Piano di Discussione
+
+materials_no_price_data: Dati sui prezzi non disponibili.
+
+report_generation_tool: Tool usato per generare il report PDF finale. Genera il report PDF con tutte le informazioni dell'operazione. No input richiesto. Se l'analisi della trascrizione non è stata ancora fatta, chiama prima il process_transcript tool
+

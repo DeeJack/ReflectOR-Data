@@ -8,6 +8,9 @@ Agisci come analista esperto di materiali e costi chirurgici. Analizza la trascr
 Considera le seguenti categorie: Strumenti, Farmaci, Contrasto, Suture, Impianti, Monouso, Sterilizzazione, Consumabili. La stima costi deve essere realistica (prezzi attuali, sconti, ecc.). Valuta l'uso come Essenziale, Appropriato, Questionabile, Inefficiente. L'analisi deve evidenziare sprechi, suggerire alternative per ridurre i costi e notare materiali potenzialmente utili mancanti, bilanciando sicurezza e costi.
 
 Trascrizione: {transcript}
+
+Usa questi prezzi come riferimento quando fai la stima dei costi: {price_context}
+
 {format_instructions}
 
-Fornisci un'analisi completa con stime costi e raccomandazioni pratiche per l'ottimizzazione dei costi, garantendo la sicurezza del paziente.
+Fornisci un'analisi completa con stime costi e raccomandazioni pratiche per l'ottimizzazione dei costi, garantendo la sicurezza del paziente. Non mettere mail 'null' o 'None' o simili per nessuno dei valori!
